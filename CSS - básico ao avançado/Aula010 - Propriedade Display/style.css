@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Demonstração display block */
+
+.block-demo{
+    display: block;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*---------------------------*/
+
+/*   Demosntração inline   */
+span{
+    background-color: black;
+    color: white;
+    
+}
+.inline-demo{
+    display: block;
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100px;
+
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+/*------------------------*/
+
+/* Demonstração inline - block */
+.inline-block-demo{
+    display: inline-block;
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;
+    }
+
+/*----------------------------*/
+
+
+

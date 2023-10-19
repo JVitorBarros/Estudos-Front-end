@@ -1,0 +1,56 @@
+O Strict Mode veio com a versão ES5 do JavaScript, esse modo de programar impede certas ações para o bem do nosso código
+
+Podemos dizer que são eliminadas algumas gambiarras possíveis de se fazer com o JavaScript, o que torna vantajoso utilizar 
+
+o strict. O primeiro ponto é que: todas as funcionalidades do ES3 que estão deprecated, descontinuadas, estarão desabilitadas
+
+no strict. Ou seja, você receberá um erro ao utilizar uma delas
+
+E alguns outros exemplos práticos do que acontece com strict:
+
+1 - Usar variáveis não declaradas gera um erro;
+2 - Usar uma variável não declarada dentro de uma também gera erro;
+3 - Mudar valor de uma propriedade que não é writeable gera erro;
+4 - Deletar um objeto ou variável não é permitido;
+5 - Deletar funções também não é permitido;
+6 - Duplicação de parâmetros em função também não é permitido;
+7 - Modificar uma propriedade getter de um objeto não é permitido;
+8 - Não se pode deletar propriedades undeleteable;
+9 - Não se pode utilizar eval como nome de variável;
+
+
+Enfim, o strict mode te ajuda a escrever um código mais seguro e consistente. Aconselho a adotar ele e ver que não vai te 
+
+prejudicar tanto assim, e sim melhorar muito a qualidade do seu código. Quer se especializar em Desenvolvimento Web? Veja
+
+o nosso catálogo de cursos.
+
+
+				Como utilizar o use strict
+
+
+Temos duas maneiras de declarar o ‘use strict’ para que ele funcione corretamente. Uma é no início do arquivo, então todos
+
+o código vai seguir a regra do strict. E você deve declarar deste jeito:
+
+		"use strict";
+
+Outra possibilidade é declarar ele dentro de uma função
+
+Então só a função vai se beneficiar do strict mode, veja:
+
+function minhaFunção() {
+  "use strict";
+  a = 'teste' // isso já daria problema, a não está declarada
+}
+Obs: o ‘use strict’ deve estar no início do código, primeira linha;
+
+Conclusão
+Neste artigo vimos o que faz o ‘use strict’ no JavaScript, e também algumas de suas melhorias no código
+
+Como por exemplo: não poder utilizar uma variável sem declarar
+
+Uma vez que no JS normal é criada uma variável global, quando isso ocorre
+
+Por fim vimos que o strict deve ser utilizado sempre no início do código ou dentro de uma função
+

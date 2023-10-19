@@ -1,0 +1,340 @@
+​			*****   HEADER   *****
+
+
+<header> de uma forma didática:
+
+Imagine que você está construindo uma casa, e essa casa é o seu site na internet. 
+
+A tag <header> é como a "fachada" ou a "parte de cima" da sua casa virtual.A função
+
+da tag <header> é criar uma seção especial no início da sua página web, onde você
+
+coloca informações importantes para os visitantes do seu site. Isso geralmente in-
+
+clui coisas como:
+
+
+       			Logotipo ou Título: 
+
+É como a placa que mostra o nome da sua casa. No caso do site, é onde você coloca 
+
+o logotipo ou o título do seu site, mostrando o nome ou símbolo que o identifica.
+
+
+			Menu de Navegação: 
+
+É como um mapa para ajudar os visitantes a se locomover dentro da sua casa virtual. 
+
+Nessa área, você coloca links para diferentes partes do seu site, como "Início", 
+
+"Sobre", "Contato" e outras seções importantes.
+
+
+			Cabeçalho: 
+
+Como se fosse a mensagem de boas-vindas na porta da sua casa. No <header>, você po-
+
+de colocar um cabeçalho de introdução, como uma saudação, um slogan ou uma breve 
+
+descrição do que o site oferece.
+
+
+			Informações de Contato: 
+
+
+Às vezes, você pode querer incluir informações de contato relevantes no topo do site,
+
+como um número de telefone ou endereço de e-mail para que as pessoas possam se co-
+
+municar com você facilmente.
+
+
+Em resumo, a tag <header> é como a entrada principal da sua casa virtual, onde você 
+
+coloca informações importantes e convidativas para os visitantes. Ela ajuda a dar 
+
+uma primeira impressão positiva do seu site e permite que as pessoas encontrem fa-
+
+cilmente o que estão procurando.
+
+
+
+					
+			*****   NAV   *****
+
+
+Imagine que você está dentro da sua casa virtual (seu site) e deseja se movimentar 
+
+de um cômodo para outro. A tag <nav> é como um "mapa interno" que mostra as diferen-
+
+tes opções de locais para onde você pode ir.
+
+A função da tag <nav> é criar uma seção destinada à navegação do seu site. Nessa par-
+
+te, você coloca os links que levam os visitantes a diferentes páginas ou seções impor-
+
+tantes do seu site.
+
+Pense nela como um "menu" que lista as opções disponíveis para os visitantes acessarem.
+
+Geralmente, o <nav> contém links para as principais páginas ou áreas do seu site, 
+
+como "Início", "Sobre", "Contato", "Produtos" e assim por diante. Então, quando os
+
+visitantes entram na sua casa virtual (site), eles podem consultar esse "mapa interno" 
+
+(a tag <nav>) para encontrar os locais que desejam visitar. Clicando nos links do menu 
+
+de navegação, eles são levados diretamente para esses locais específicos dentro do site.
+
+
+Essa tag é essencial para melhorar a experiência do usuário, pois facilita a navegação 
+
+e a localização de informações importantes no seu site. É como fornecer um guia útil pa-
+
+ra os visitantes se movimentarem pela sua casa virtual e encontrarem o que procuram de ma-
+
+neira mais rápida e fácil.   
+
+
+
+			*****   MAIN   *****
+
+
+Imagine que você tem uma casa virtual (seu site) com vários cômodos diferentes. Agora, 
+
+o <main> é como a "sala principal" da sua casa virtual, onde acontece a maior parte da 
+
+atividade principal. A função da tag <main> é criar uma seção principal dentro do seu 
+
+site, onde você coloca o conteúdo principal que deseja compartilhar com seus visitantes. 
+
+Essa área é reservada para o conteúdo central do seu site, como textos, imagens, vídeos 
+
+ou qualquer outro tipo de informação relevante que você deseja que seus visitantes vejam
+
+em primeiro lugar.
+
+
+Pense no <main> como o local onde a "história" do seu site é contada. É onde você pode 
+
+apresentar o propósito do site, o conteúdo mais importante ou o foco principal da página.
+
+Essa tag é especialmente útil para a acessibilidade do seu site. Em alguns navegadores, é 
+
+possível pular diretamente para o conteúdo do <main>, ignorando cabeçalhos e menus, o que 
+
+facilita para pessoas com necessidades especiais ou que utilizam leitores de tela.
+
+
+Em resumo, a tag <main> é a "sala principal" da sua casa virtual, onde você exibe o conteúdo
+
+mais relevante e essencial do seu site. É o coração do seu site, onde você pode compartilhar
+
+informações importantes com os visitantes e manter o foco no que é mais relevante para eles.
+
+
+
+			*****   SECTION   *****
+
+
+Imagine que você está organizando uma festa na sua casa virtual (seu site). Agora, a tag <section>
+
+é como uma "área temática" ou "espaço específico" da sua festa onde você agrupa elementos relacio-
+
+nados. A função da tag <section> é criar uma seção bem definida e delimitada dentro do seu site, 
+
+onde você organiza e agrupa conteúdos que possuem um tema ou tópico em comum. 
+
+
+Essa área é como uma divisão lógica do seu site, onde cada seção pode conter seu próprio conteúdo 
+
+independente. Por exemplo, se você está criando um blog no seu site, pode usar a tag <section> pa-
+
+ra separar cada postagem individualmente. Cada postagem seria uma seção diferente, e dentro de cada
+
+seção, você teria o título, o conteúdo do artigo e talvez até comentários dos leitores, tudo rela-
+
+cionado àquela postagem específica.
+
+
+Outro exemplo seria uma página de produtos, onde você pode usar a tag <section> para agrupar detalhes
+
+e informações sobre cada produto separadamente. Cada <section> representaria um item diferente à ven-
+
+da com suas próprias descrições, imagens e botões de compra.
+
+
+Em resumo, a tag <section> é como uma "área temática" da sua casa virtual, onde você cria divisões ló-
+
+gicas para organizar e agrupar conteúdos relacionados. É útil para criar uma estrutura clara no seu 
+
+site e tornar mais fácil para os visitantes encontrarem e entenderem o conteúdo que estão buscando.
+
+
+
+			*****   ARTICLE   *****
+
+
+Imagine que você está escrevendo uma revista ou jornal na sua casa virtual (seu site). Agora, a tag 
+
+<article> é como um "artigo" independente e completo dentro dessa publicação. A função da tag <article> 
+
+é criar uma seção autônoma no seu site, onde você publica um conteúdo completo e autocontido. Essa seção
+
+representa um artigo, notícia, postagem ou qualquer tipo de conteúdo que tenha sentido por si só, mesmo
+
+que seja retirado do contexto do restante do site.
+
+
+Por exemplo, se você está administrando um blog, cada postagem individual seria um <article>. Dentro de 
+
+cada <article>, você inclui o título, o conteúdo completo da postagem, possivelmente imagens e até mesmo
+
+informações do autor. 
+
+Cada <article> é uma entidade separada, como se fosse uma pequena história ou notícia que pode ser lida 
+
+independentemente. Outro exemplo seria um site de notícias, onde cada notícia seria um <article>. Cada 
+
+notícia teria seu próprio título, texto, imagens e informações sobre o acontecimento específico, tornan-
+
+do-se um "artigo" completo e coeso.
+
+
+Em resumo, a tag <article> é como um "artigo" individual dentro da sua casa virtual, que contém conteúdo 
+
+completo e independente. É útil para separar e destacar conteúdos específicos que podem ser lidos por si 
+
+só, sendo facilmente compartilháveis e destacados em feeds de notícias, mecanismos de busca e outras pla-
+
+taformas.
+
+
+
+				*****   ASIDE   *****
+
+
+Imagine que você tem uma casa virtual (seu site) e dentro dela, há uma área reservada para informações 
+
+complementares e secundárias. Agora, a tag <aside> é como uma "área lateral" ou "seção extra" da sua 
+
+casa virtual.
+
+
+A função da tag <aside> é criar uma seção que contém conteúdo relacionado, mas não diretamente parte 
+
+do conteúdo principal do seu site. Essa área é usada para informações adicionais, conteúdo relacionado, 
+
+anúncios, widgets ou qualquer outra coisa que seja útil, mas não essencial para o entendimento principal
+
+da página. Pense no <aside> como uma "barra lateral" que pode conter coisas como:
+
+
+
+				Anúncios: 
+
+Publicidade ou promoções que são exibidas em uma barra lateral.
+
+
+				Links Relacionados: 
+
+Links para outros artigos, páginas ou recursos relacionados ao conteúdo principal da página.
+
+
+				Widgets: 
+
+Elementos interativos, como calendários, caixas de pesquisa ou feeds de redes sociais.
+
+
+				Informações Complementares: 
+
+Detalhes adicionais que complementam o conteúdo principal da página, como uma biografia do autor ou infor-
+
+mações de contato.
+
+
+				Notas de Rodapé: 
+
+Informações adicionais no final da página.
+
+
+
+O <aside> é projetado para conter conteúdo secundário, mas que ainda é relevante para o contexto da página. 
+
+Geralmente, ele está localizado ao lado do conteúdo principal, mas pode ser colocado em outras posições, de-
+
+pendendo do layout do site.
+
+
+Em resumo, a tag <aside> é como uma "área lateral" da sua casa virtual, onde você pode colocar informações 
+
+complementares, links relacionados, anúncios e outros elementos que são úteis, mas não fazem parte do conteúdo
+
+central da página. É uma maneira de melhorar a experiência do usuário e fornecer informações adicionais de forma
+
+organizada.
+
+
+
+			*****   FOOTER   *****
+
+
+Imagine que você está construindo uma casa virtual (seu site) e chegou a hora de criar a área inferior dela. 
+
+Agora, a tag <footer> é como o "rodapé" ou "base" da sua casa virtual. A função da tag <footer> é criar uma 
+
+seção especial na parte inferior da sua página web, onde você coloca informações que são comuns a todas as 
+
+páginas ou que são relevantes para o site como um todo. Geralmente, o rodapé contém elementos como:
+
+
+			
+			Informações de Contato: 
+
+É onde você pode incluir detalhes de contato, como um número de telefone, endereço de e-mail ou até mesmo um 
+
+formulário de contato.
+
+
+			Links Úteis: 
+
+Pode conter links para páginas importantes do site, como "Sobre nós", "Política de Privacidade", "Termos de Uso" 
+
+ou "FAQ".
+
+
+			Direitos Autorais: 
+
+É comum incluir a informação de direitos autorais do site no rodapé, indicando quem é o proprietário do conteúdo.
+
+
+
+			Redes Sociais: 
+
+Caso o site tenha perfis em redes sociais, é uma oportunidade para colocar ícones ou links para essas páginas.
+
+
+
+			Links para Recursos: 
+
+Se houver outros sites ou recursos relacionados, você pode colocar links para eles no rodapé.
+
+
+
+			Informações Legais: 
+
+Dependendo da natureza do site, pode ser necessário incluir avisos legais ou de conformidade.
+
+
+
+O <footer> é uma seção importante porque ajuda os visitantes a encontrar informações cruciais sem precisar navegar
+
+para outras páginas. Ele é exibido em todas as páginas do site, proporcionando consistência e acessibilidade.
+
+
+Em resumo, a tag <footer> é como o "rodapé" da sua casa virtual, onde você coloca informações importantes, links 
+
+úteis e elementos comuns a todas as páginas do site. É uma forma de fornecer um ponto de referência para informa-
+
+ções relevantes e encerrar o conteúdo de cada página com uma nota final.

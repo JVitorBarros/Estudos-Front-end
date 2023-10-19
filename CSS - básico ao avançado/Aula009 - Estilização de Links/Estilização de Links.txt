@@ -1,0 +1,152 @@
+           
+
+	LINKS EM CSS - As propriedades LINK, VISITED, HOVER e ACTIVE.
+
+
+CSS em Links - Por que estilizar ?
+
+
+Os dois principais pilares da internet são, sem dúvidas, a informação e a ligação desses dados.
+
+De nada adianta um importante centro de pesquisas fazer estudos e descobertas, se não tiver como
+
+compartilhar essas informações com outras pessoas e instituições.
+
+E quando falamos em compartilhar informações, estamos falando dos links. Os links são os respon-
+
+sáveis por levar uma pessoa de um local da rede para outro. Quando queremos mostrar algo para 
+
+alguém, passamos o link. Quando queremos mostrar pro leitor que ele pode se informar mais sobre
+
+um assunto em outra página, fazemos isso criando um link. Ou seja, o link tem o efeito de ligar 
+
+uma página na outra, e esse conceito é um dos mais importantes em termos de criação de sites. Por 
+
+links serem tão especiais, é natural que devamos destacar, mostrar para os leitores e deixar bem
+
+claro que aquilo é um link, é um elo, uma âncora que poderá levar ele para outro local, onde ele
+
+poderá obter mais informação. E é isso que iremos fazer neste tutorial de CSS, que é destacar, 
+
+tratar diferente os links. Como sempre, com o CSS nós temos bem mais flexibilidade e recursos do
+
+que com o HTML puro.
+
+Existem quatro tipos de comportamentos de links. O PRIMEIRO é antes de de interagirmos com o link, 
+
+quando não clicamos nem passamos o mouse e é a primeira vez que vemos aquele link. O SEGUNDO com-
+
+portamento é quando passamos o mouse em cima do link.A TERCEIRA interação ocorre quando estamos 
+
+clicando no link. E por fim, a última possibilidade de interação com links é quando nos deparamos
+
+com um link cuja página de destino já foi visitada por nós.
+
+
+
+		
+		** A propriedade link do CSS **
+
+
+A primeira interação com os links é feita através do seletor pseudo-classe :LINK Quando colocamos 
+
+esse seletor em uma tag <a>, é porque vamos estilizar aquele link somente quando o usuário não ti-
+
+ver interagido com o link. Assim, se quisermos que um link tenha a cor azul antes de ser clicado,
+
+fazemos:
+
+
+		a:link { 
+        		color: #00F; 
+		}
+
+
+
+
+		** A propriedade HOVER do CSS **
+
+
+Caso usemos o seletor :HOVER na tag <a>, a estilização feita nesse elemento terá efeito quando pas-
+
+sarmos o mouse em cima dele. Por exemplo, para que o link que antes era azul, se torne verde ao 
+
+pousarmos o mouse em cima, o código CSS é:
+
+
+
+		a:hover { 
+        		color: #0F0; 
+		}
+
+
+
+		** A propriedade visited do CSS **
+
+
+Com certeza você já notou que ao entrar em alguns sites, os links que você já visitou a página de des-
+
+tino tinha um aspecto diferente. Por exemplo, geralmente os links que você nunca visitou são azuis e os
+
+links que você já visitou são roxos. Para definirmos a estilização de um link que já foi clicado, usamos
+
+a propriedade :VISITED Assim, para o link visitado ser vermelho, usamos o código:
+
+
+
+		a:visited { 
+        		color: #F00; 
+		}
+
+
+
+		** A propriedade active do CSS **
+
+
+Por fim, uma ferramenta pouco conhecida e usada é o seletor :ACTIVE, que irá atuar na estilização DURANTE
+
+o ato de clicar. Como geralmente esse ato é bem rápido, essa propriedade é pouquíssimo usada. Para ver ela
+
+funcionando, clique no link e segure, e verá que a estilização do CSS para :active foi realmente definida.
+
+Por exemplo, para que um link se torne da cor preta durante o ato de clicar, usamos o código CSS:
+
+
+		a:active { 
+        		color: #FFF; 
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+informações tiradas do site:
+ 
+https://www.htmlprogressivo.net/2014/07/Como-estilizar-links-em-CSS-As-propriedades-visited-hover-link-active.html

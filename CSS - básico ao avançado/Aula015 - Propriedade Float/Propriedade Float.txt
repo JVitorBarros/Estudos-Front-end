@@ -1,0 +1,99 @@
+
+
+				PROPRIEDADE FLOAT
+
+
+A propriedade float do CSS determina que um elemento deve ser retirado do seu flu-
+
+xo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde 
+
+textos e elementos em linha irão se posicionar ao seu redor.
+
+Um elemento flutuante é um tipo de elemento cujo valor de float é diferente de no-
+
+ne.
+
+
+		Valor inicial    |  none
+		
+		Aplica-se a      |  todos os elementos, mas não tem efeito se o valor
+		                    de displayfor none.
+
+		herdado	         |  não
+		
+		Valor calculado	 | como especificado
+
+		Tipo de animação |	discreto
+
+
+Como float implica o uso do layout do bloco, ele modifica o valor computado de dis
+
+play em alguns casos: 
+
+
+		Valor Especificado| Valor Computado
+
+			 inline	  | block
+		   inline-block   | block
+		   inline-table	  | table
+		   table-row	  | block
+                table-row-group	  | block
+                   table-column	  | block
+	     table-column-group	  | block
+                     table-cell	  | block
+		  table-caption	  | block
+	     table-header-group	  | block
+             table-footer-group	  | block
+			   flex	  | flex, porém floatnão produz efeito em tais ele
+				    mentos.
+		    inline-flex	  | inline-flex, porém floatnão produz efeito em 
+                                    tais elementos
+			  outro	  | inalterado
+
+
+
+				
+				SINTAXE
+		  		  CSS
+
+
+		   Copiar para área de transferência
+
+			float: left;
+			float: right;
+			float: none;
+			float: inline-start;
+			float: inline-end;
+
+			/* Global values */
+
+			float: inherit;
+			float: initial;
+			float: unset;
+         
+
+
+			       VALORES
+
+				LEFT
+
+É uma palavra-chave que indica que o elemento deve flutuar à esquerda do bloco.
+
+				RIGHT
+
+É uma palavra-chave que indica que o elemento deve flutuar à direita do bloco.
+
+				NONE
+
+É uma palavra-chave que indica que o elemento não deve flutuar.
+
+			INLINE-START EXPERIMENTAL
+
+É uma palavra-chave que indica que o elemento deve flutuar no lado inicial do seu 
+bloco, ou seja, o lado esquerdo em scripts ltre no direito em scripts rtl.
+
+			INLINE-END EXPERIMENTAL
+
+É uma palavra-chave que indica que o elemento deve flutuar no lado final do seu 
+
+bloco, ou seja, o lado direito em scripts ltre não esquerdo em scripts rtl.

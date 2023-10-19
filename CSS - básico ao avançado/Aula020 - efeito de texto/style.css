@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+main{
+    width: 300px;
+    height: auto;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+main img{
+    border-radius: 10px 10px 0px 0px;
+}
+.reduzido{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
+
+main:hover .reduzido{
+    white-space: normal;
+}

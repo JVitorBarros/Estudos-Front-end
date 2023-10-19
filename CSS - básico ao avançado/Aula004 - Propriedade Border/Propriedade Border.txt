@@ -1,0 +1,109 @@
+			PROPRIEDADES DO CSS BORDER
+
+
+O CSS border possui algumas propriedades que servem para definir as características da borda de um elemento.
+
+Abaixo veremos mais sobre essas propriedades.
+
+	* largura da borda * 
+
+A propriedade border-width é utilizada para definir o tamanho da borda. Veja os valores abaixo:
+
+	px : valor numérico definido em pixels;
+
+	em : o valor corresponde a duas vezes o tamanho da fonte do elemento;
+
+	rem : o valor corresponde ao tamanho da fonte definida no elemento root;
+	
+	vh e vw : o valor corresponde à altura (altura) e largura (largura) da viewport (área da tela);
+	
+	thin : define o valor da borda igual a 1px para todos os lados;
+	
+	medium : define o valor da borda igual a 3px para todos os lados;
+
+	Thick : define o valor da borda igual a 5px para todos os lados.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+			ESTILO DE BORDA
+
+
+A propriedade border-style é utilizada para definir diferentes estilos para a borda. Veja os valores abaixo:
+
+
+	solid: o valor define uma borda sólida;
+	
+	none: o valor não define borda;
+	
+	hidden: o valor define uma borda oculta;
+	
+	dashed: o valor define uma borda tracejada;
+
+	dotted: o valor define uma borda pontilhada;
+	
+	double: o valor define uma borda dupla;
+
+	groove: o valor define uma borda 3D com aparência de botão pressionado;
+
+	ridge: o valor define uma borda 3D com aparência de botão elevado;
+
+	inset: o valor define uma borda 3D com aparência levemente pressionada;
+
+	outset: o valor define uma borda 3D com aparência levemente elevada.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+			BORDER COLOR
+
+
+A propriedade border-color é utilizada para definir diferentes tipos de cores para a borda. Veja os valores abaixo:
+
+	rgb: border-color: rgb(60, 165, 44);
+
+	rgba: border-color: rgba(60, 165, 44, 1);
+
+	hsl: border-color: hsl(143, 98, 79);
+
+	hsla: border-color: hsla(143, 98, 79, 1);
+
+	cores hexadecimais: border-color: #3CA52C;
+
+	nomes das cores: border-color: navy; /* corresponde a: #000080 */
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+		BORDER-SIDES: definindo borda com lados individuais
+
+
+A propriedade border também pode ser utilizada para criar uma borda com somente um lado específico ou com um estilo diferente
+
+de borda para cada lado, como veremos no exemplo dos Códigos 5 e 6. Para que isso seja feito, pode ser utilizado as seguintes
+
+propriedades:
+
+	border-top: cria a borda somente no topo do elemento;
+
+	border-right: cria a borda somente no lado direito do elemento;
+
+	border-bottom: cria a borda somente abaixo do elemento;
+
+	border-left: cria a borda somente no lado esquerdo do elemento.,
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+			BORDER-RADIUS
+
+
+O CSS border possui uma propriedade que dá a capacidade de adicionar bordas arredondadas a um elemento. Essa propriedade é conhecida
+
+como border-radius.
+
+O border-radius utiliza de valores numéricos para criar cantos circulares ou cantos elípticos. Veja abaixo esses valores:
+
+	
+	px: valor numérico definido em pixels;
+
+	%: valor numérico definido em porcentagem.

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    text-decoration: none;
+    color: black;
+}
+#ex001:hover{ /* a estilização feita nesse elemento terá efeito quando passarmos o mouse em cima dele */
+
+    color: blue;
+    text-decoration: underline;
+}
+
+#ex002:visited{ /* Está estilização tem efeito quando clicamos e acessando o link, após ser clicado ele mudará de cor para que possamos identificar que aquele link já foi acessado*/
+    color: blueviolet;
+}
+
+#ex003:active{ /* Está estilização tem efeito quando apenas clicamos no link */
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}

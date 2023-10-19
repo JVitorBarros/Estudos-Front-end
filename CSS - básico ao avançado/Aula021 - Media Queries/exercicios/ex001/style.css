@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.esconder{
+    border: 1px solid lawngreen;
+    padding: 20px;
+    background-color: lawngreen;
+}
+
+@media only screen and (max-width: 600px){
+    .esconder{
+        display: none;
+    }
+}
+

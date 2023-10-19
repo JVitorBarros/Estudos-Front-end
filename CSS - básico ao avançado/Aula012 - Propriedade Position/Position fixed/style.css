@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{ margin: 0;
+   padding: 0;
+} /*Reset*/
+
+body{ 
+    background: #000; 
+}
+div{ 
+    background: #f90; 
+    width: 300px; 
+    height: 1500px; 
+    position: relative; 
+}
+h1{
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+}
+h2{
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    bottom: 0PX;
+    left: 20px;
+    right: 20px;
+}

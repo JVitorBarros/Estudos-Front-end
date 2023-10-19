@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#ex01{
+    color: #ff1100;
+}
+#ex02{
+    color: red;
+}
+#ex03{
+    color: rgb(255, 0, 0);
+}
+#ex04{
+    color: hsl(0, 100%, 50%);
+}

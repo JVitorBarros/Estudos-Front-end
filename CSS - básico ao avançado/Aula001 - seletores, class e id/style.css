@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: antiquewhite;
+
+}
+.vermelho{
+    color: red;
+
+}
+.center{
+    text-align: center;
+
+}
+.font-30{
+    font-size: 30px;
+
+}
+#teste{
+    color: blue;
+    background-color: yellow;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{ 
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 200px 200px;
+}
+h1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+h2{
+    top: 20px;
+    left: 20px;
+}
+/*
+Observe que o h1 se posicionou de acordo com o left e top enquanto o h2 manteve o posicionamento comum,
+ou seja, não atendeu os valores do left e top. Isso se deve porque elementos com posição estática (padrão)
+não podem ser posicionados.
+*/
+
+
+

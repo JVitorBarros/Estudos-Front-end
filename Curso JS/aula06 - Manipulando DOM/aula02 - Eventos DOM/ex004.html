@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabuada</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TABUADA</h1>
+
+    Insira um valor: <input type="number" name="tbd1" id="tbd1">
+    <input type="button" value="verificar" onclick="tabuada()">
+    <div id="res">
+
+    </div>
+    <script>
+        function tabuada(){
+            let numero = document.querySelector('input#tbd1');
+            let valor = Number(numero.value);
+            let resultado = document.querySelector('div#res');
+            
+
+            resultado.innerHTML = `<p>TABUADA: ${valor}</p>`;
+
+            for(let contador = 0; contador < 11; contador++){
+                
+
+                resultado.innerHTML +=`<p>${valor} x ${contador} = ${valor * contador}</p>` 
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+ 
+*{
+    text-align: center;
+}
+
+#ex00{
+    border: 5px solid blueviolet;
+}
+#ex01{
+    border: 5px dashed blueviolet;
+}
+#ex02{
+    border: 5px dotted blueviolet;
+}
+#ex03{
+    border: 5px double blueviolet;
+}
+#ex04{
+    border: 5px groove blueviolet;
+}
+#ex05{
+    border: 5px inset blueviolet;
+}
+#ex06{
+    border-top: 5px solid red;
+    border-right: 5px solid greenyellow;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid yellow;
+}
+#ex07{
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+
+}
+

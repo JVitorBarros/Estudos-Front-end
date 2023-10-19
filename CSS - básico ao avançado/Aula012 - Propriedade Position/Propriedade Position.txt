@@ -1,0 +1,294 @@
+
+
+			PROPRIEDADE POSITION - CSS
+
+
+Após entender a posição da propriedade, tenha cuidado ao utilizá-la. O foco dessa
+
+propriedade é posicionar pequenos detalhes do layout, para diagramar o site uti-
+
+lizar o bom e velho Float. Uma posição de propriedade pode assumir 4 valores di-
+
+ferentes: Static, Relative, Absolute e Fixed. Segue abaixo a explicação para 
+
+cada uma:
+
+
+			CSS Position Static:
+
+
+Esse é o valor padrão de todo elemento HTML, ou seja, ele vai seguir o fluxo comum
+da sua página. 
+Ex:
+
+			h1 { position: static }	     
+
+-----------------------------------------------------------------------------------
+			
+			CSS Position Relative:
+
+
+Usando o position Relative o elemento passa a aceitar as propriedades Top, Bottom,
+
+Left e Right. Com elas você pode alterar o posicionamento do elemento.
+
+			
+			ex HTML:
+
+
+			<body>
+  		           <div>
+			      <h1>Sou um h1</h1>
+			      <h2>Sou um h2</h2>
+                           </div>
+			</body>
+
+           --------------------------------------------------
+
+			ex CSS:
+
+			* { 
+			    margin: 0; 
+			    padding: 0;
+			   } 
+
+			body{ 
+			      background: #000; 
+			     }
+
+			div { 
+			      background: #eee;
+			      margin: 200px 200px;
+			      width: 300px;
+			      height: 300px; 
+                            }
+
+			h1  { 
+			      position: relative;
+                              top: 10px;
+                              left: 20px;
+                            }
+
+			h2  { 
+			      top: 20px;
+			      left: 20px;
+                            }
+
+O código no Vscode: 
+
+Notem que o h1 se posicionou de acordo com o left e top enquanto o h2 manteve o 
+
+posicionamento comum, ou seja, não atendeu as valores do left e top. Isso se 
+
+deve porque elementos com position static (default) não podem ser posicionados.
+
+-----------------------------------------------------------------------------------
+
+			CSS POSITION ABSOLUTE:
+
+
+O position Absolute é um grande quebra galho no CSS. Com ele você pode posicionar 
+
+qualquer elemento de acordo com o elemento pai que tenha um position diferente de 
+
+static.
+
+
+			ex HTML:
+
+			<div>
+                           <h1>
+                             <span></span>
+                           </h1>
+
+                           <p></p>
+                        </div>
+
+O elemento DIV é pai dos elementos H1, P e SPAN. Os elementos H1, P e SPAN são fi-
+
+lhos do elemento DIV. Os elementos H1 e P são irmãos por estarem no mesmo nível. 
+
+E o elemento SPAN é filho do elemento H1 e também do elemento DIV.,
+
+
+
+Continuando a explicação sobre o Position Absolute:
+
+Tenham cuidado ao utilizar o positon absolute pois ele deixa de fazer parte do flu-
+
+xo comum do documento e o espaço destinado a ele deixa de existir no documento. 
+
+Ex:
+
+
+			ex HTML:
+
+			<body>
+  			    <div>
+			       <h1>Sou um h1</h1>
+	                       <h2>Sou um h2</h2>
+                            </div>
+                        </body>
+
+            ------------------------------------------------
+
+			ex CSS:
+			
+                        * { 
+                            margin: 0;
+                            padding: 0;
+                        }
+                        body{ 
+                              background: #000; 
+                        }
+                        div{ 
+                             background: #eee;
+                             margin: 50px;
+                             width: 300px; 
+                             height: 300px; 
+                             position: relative;
+                        }
+                        h1 { 
+                             position: absolute;
+                             top: 20px;
+                             left: 20px;
+                             outline: 1px solid #444;  
+                        }
+                        h2 { 
+                             outline: 1px solid #f90; 
+                        }
+
+O código no VsCode:
+
+Notem que o elemento H2 assumiu o topo da DIV, respeitando o fluxo normal do docume-
+
+nto, enquanto o h1 passou a se posicionar com uma distância de 20px do topo e 20px
+
+da esquerda, porém fora do fluxo, ficando por cima dos demais elementos.
+
+
+
+Um detalhe importante é que você pode usar medidas negativas e posicionar os eleme-
+
+ntos em locais que antes seriam impossíveis de serem alcançados.
+
+
+			ex HTML:
+			
+			<body>
+                            <div>
+	                       <h1>Sou um h1</h1>
+                            </div>
+                        </body>
+
+	----------------------------------------------------
+
+			ex CSS:
+
+			* { 
+			    margin: 0;
+                            padding: 0;
+                        }
+                        body{ 
+                              background: #000; 
+                        }
+			div{ 
+                             background: #eee;
+                             margin: 50px;
+                                                                                                                                                                                            width: 300px; height: 300px; position: relative;
+                        }
+			h1{ 
+                            position: absolute;
+                            top: 20px;
+                            left: 20px;
+                            outline: 1px solid #444;
+                        }
+                        h2{ 
+                            outline: 1px solid #f90;
+                        }
+
+-----------------------------------------------------------------------------------
+
+			CSS POSITION FIXED:
+
+
+O position fixed se comporta de maneira semelhante ao absolute, deixando de fazer 
+
+parte do fluxo comum da página. Porém a grande diferença dele é que ele passa a se
+
+referenciar ao window do seu navegador, ou seja, a área que aparece para o usuário
+
+independente de barra de rolagem:
+
+
+			ex HTML:
+
+
+			<body>
+  			    <div>
+			       <h1>Sou um h1</h1>
+			       <h2>Sou um h2</h2>
+ 			    </div>
+			</body>
+
+             ------------------------------------------------
+
+			ex CSS:
+
+
+			* { 
+			    margin: 0;
+                            padding: 0;
+                        } 
+			body{ 
+                              background: #000;
+                        }
+			div{ 
+                             background: #f90;
+                             width: 300px;
+                             height: 1500px;
+                             position: relative; 
+                        }
+			h1{ 
+                            position: fixed;
+                            top: 0;
+                            left: 20px;
+                            right: 20px;
+             		    outline: 1px solid #444;
+                            background: #fff;  
+                        }
+			h2 { 
+                             position: fixed;
+                             bottom: 0;
+                             left: 20px;
+                             right: 20px;
+            		     outline: 1px solid #444;
+                             background: #fff;
+                        }
+
+
+O codigo no VScode:
+
+Notem como o elemento H2 se posicionou na parte inferior da página devido ao 
+
+bottom: 0 e o H1 se pocionou no topo com o top:0. Reparem também que a página
+
+tem barra de rolagem vertical devido ao height da DIV mas mesmo assim o H2 
+
+respeitou o window.
+
+
+
+As redes sociais e blog tem usado bastante esse recurso. O próprio Facebook mantém
+
+a barra superior fixa independente da navegação do usuário e os alertas do Twitter
+ 
+sempre aparecem no topo da página. Isso pode ser alcançado facilmente com a pro-
+
+priedade position utilizando o fixed.
+
+Bom pessoal, espero que tenha ficado bem claro para vocês o poder da propriedade 
+
+positon e novamente, tenham cuidado ao utiliza-la. Sempre optem pelo float para 
+
+diagramação e position para pequenos ajustes.

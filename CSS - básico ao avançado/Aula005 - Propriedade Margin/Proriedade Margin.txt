@@ -1,0 +1,73 @@
+
+		MARGIN
+
+A propriedade margin simplesmente adiciona uma margem ao seu elemento. Você pode utilizar qualquer medida Css (px, pt, em, %...) 
+
+como tamanho da propriedade margin, além disso você pode atribuir valores negativos, mas tenha cuidado com eles.
+
+Ela deve ser usada da seguinte maneira:
+
+		
+	#elemento {
+    		margin-top: 15px;
+    		margin-right: 10px;
+    		margin-bottom: 25px;
+   		 margin-left: 35px;
+	}
+
+
+
+
+Essa é a declaração completa, porém existe uma forma mais prática para declarar o margin quando você deseja adicionar margens a todos
+
+os lados do elemento.
+
+
+	#elemento { margin: 15px 10px 25px 35px; }
+
+
+
+Utilizei os mesmo valores justamente para fazer a relação, na maneira curta (shorthand) o primeiro valor é responsável pela margem do topo,
+
+a segunda pela direita, a terceira pela da base e a quarta pela esquerda. Ex: #elemento { margin: top right bottom left }; Caso o valor da 
+
+margem do topo seja igual a da base e a da direita seja igual a da esquerda você pode declarar dessa forma:
+
+
+
+	#elemento { margin: 25px 10px }
+
+
+
+Ou seja, o margin top e bottom do elemento será de 25px e left e right de 10px.
+
+
+	
+	Ex: #elemento { margin: topo/base esquerda/direita }
+
+
+E se todos os valores forem iguais você pode declarar da seguinte maneira:
+
+
+	#elemento { margin: 10px; }
+
+
+Quando dois elementos possuem margins que se tocam, automaticamente o maior margin prevalece e o menor é sobreposto.
+
+
+	<div>
+    		<h1></h1>
+    		<h2></h2>
+	</div>
+
+
+	h1 { margin-bottom: 20px; }
+	h2 { margin-top: 5px; }
+
+
+Nesse caso a distância entre o h1 e h2 não vai ser de 25px (20px + 5px) como o esperado e sim de 20px, pois o margin 
+
+de 5px do h2 vai ser sobreposto pelo margin de 20px do h1. A propriedade margin adiciona um espaço transparente e ele
+
+não pode ser preenchido com nenhuma cor. Além disso, ela não pode receber bordas. 
+

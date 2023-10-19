@@ -1,0 +1,61 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* Espaçamento interno no canto inferior*/
+#ex001{
+    border: 2px solid black;
+    margin: 5px;
+    
+}
+#ex001 > h1{
+    padding-bottom : 100px;
+}
+/*--------------------------------------*/
+
+/* Espaçamento no canto esquerdo*/
+#ex002{
+    border: 2px solid black;
+    margin: 5px;
+}
+#ex002 > h1{
+    padding-left: 100px;
+}
+/*------------------------------------*/
+
+/*Espaçamento no canto superior*/
+#ex003{
+    border: 2px solid black;
+    margin: 5px;
+}
+#ex003 > h1{
+    padding-top: 100px;
+}
+/*----------------------------*/
+
+/*Espaçamento no canto direito*/
+
+#ex004{
+    border: 2px solid black;
+    margin: 5px;
+}
+#ex004 > h1{
+    padding-right: 1000px;
+
+}
+/*---------------------------*/
+
+/* Declaração padding simplificada*/
+
+#ex005{
+    border: 2px solid black;
+    margin: 5px;
+}
+#ex005 > h1{
+    padding: 40px 60px 70px 5px; /* padding-top , padding-right, padding-bottom, padding-left*/
+}
+
+/*---------------------------------*/
+

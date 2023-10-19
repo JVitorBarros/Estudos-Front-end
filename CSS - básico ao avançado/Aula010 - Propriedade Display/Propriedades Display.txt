@@ -1,0 +1,86 @@
+
+			PROPRIEDADES DISPLAY
+
+
+				BLOCK: 
+
+Imagine um bloco de madeira retangular que ocupa toda a largura disponível em uma prateleira. Ele começa em uma nova linha
+
+e empurra outros blocos para baixo e para cima. Elementos com display: block têm largura total e criam uma quebra de linha 
+
+antes e depois deles.
+
+				
+				INLINE: 
+
+Agora, pense em uma palavra em um parágrafo. Ela ocupa apenas o espaço necessário para o seu conteúdo, não criando quebras 
+
+de linha. Elementos com display: inline são como palavras em um texto, ficando lado a lado sem espaços extras.
+
+
+
+				INLINE-BLOCK: 
+
+É como combinar as propriedades de block e inline. Pense em um bloco de madeira retangular (block), mas que você pode colocar
+
+várias caixas em linha (inline) ao lado umas das outras. Esses elementos têm uma largura e altura que podem ser definidas e 
+
+ficam em linha.
+
+
+				NONE: 
+
+
+Isso é como fazer um elemento desaparecer completamente. É como se você retirasse algo da prateleira, e o espaço que ele ocupava
+
+fica vazio. Elementos com display: none não são exibidos na página.
+
+
+
+				FLEX:
+
+
+Imagine um recipiente flexível que pode organizar objetos dentro dele de forma ajustável. É como uma bandeja onde você pode colocar
+
+várias coisas e movê-las para diferentes posições. Os elementos com display: flex podem ser organizados em linhas ou colunas, e você
+
+pode ajustar como eles se encaixam.
+
+
+
+				GRID: 
+
+Pense em uma grade de quadrados, onde você pode colocar diferentes itens em cada quadrado. Os elementos com display: grid se comportam
+
+como um contêiner de grade, permitindo que você crie layouts complexos e alinhe os itens em uma estrutura de grade. table, table-cell, 
+
+table-row, table-row-group, etc.: Imagine uma tabela como as que você encontra em planilhas. Os elementos com esses valores de display 
+
+se comportam como elementos de tabela, permitindo que você organize o conteúdo em colunas e linhas, exatamente como em uma tabela.
+
+
+Esses são os principais valores possíveis para a propriedade display em CSS. Cada um deles tem um comportamento diferente, permitindo que
+
+você controle como os elementos são exibidos e se comportam no layout da página. Escolher o valor certo para a propriedade display é funda-
+
+mental para criar um design e layout adequados para o seu site ou aplicativo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

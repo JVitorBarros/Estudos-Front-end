@@ -1,0 +1,38 @@
+ID
+
+
+O atributo id é um identificador único que é usado para especificar o documento. 
+
+Ele é usado no CSS e JavaScript para executar uma determinada tarefa para um ele-
+
+mento único. Em CSS, o atributo id é escrito usando o símbolo # seguido do id.
+
+
+
+CLASS
+
+
+O atributo class é usado para especificar um ou mais nomes de classe para um ele-
+
+mento HTML. O atributo class pode ser usado em qualquer elemento HTML. O nome da
+
+class pode ser usado no CSS e JavaScript para executar determinadas tarefas para 
+
+elementos com o nome de class especificado. O nome da class na folha de estilo CSS
+
+usando “.” símbolo.
+
+
+
+QUAL A DIFERENÇA ENTRE ID E CLASS NO CSS, AFINAL?
+
+
+A diferença entre um id e uma class é que um id é usado apenas para identificar um
+
+único elemento em nosso HTML. Os identificadores são usados ​​apenas quando um elemen-
+
+to na página precisa ter um estilo específico aplicado a ele. No entanto, uma class
+
+pode ser usada para identificar mais de um elemento HTML.
+
+

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+div{
+    margin-bottom: 20px;
+}
+.ex001{
+    background-color: aqua;
+    height: 150px;
+    overflow: scroll;
+   
+}
+
+body{
+    overflow-y: hidden; /* removendo barra de rolangem vertical*/
+}

@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+:root{
+    --color01: #e6e6e169;
+    --color02: #f53fa6;
+    --colorFonteDescricao: #868585;
+    --colorLogin: #fffdfd;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+main{
+    display: flex;
+    width: 1100px;
+    height: 605px;
+    padding-top: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+
+.descricao-container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    padding-left: 20px ;
+    
+    
+}
+
+.descricao-container img{
+    width: 300px;
+    padding-bottom: 15px;
+    
+    
+}
+
+.corOrkut{
+    color: var(--color02);
+}
+
+.descricao-container .descricao{
+    align-self: center;
+    font-weight: bold;
+    font-size: 29px;
+    color: var(--colorFonteDescricao) ;
+    height: 200px;
+    width: 100%;
+    
+}
+
+
+.login-container{
+    width: 480px;
+    height: 500px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.img-login{
+    
+    display: none;
+
+
+}
+
+.login{
+    width: 420px;
+    height: 420px;
+    background-color: var(--colorLogin);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.315);
+    
+}
+
+.contaGoogle-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+
+}
+
+.contaGoogle{
+    font-weight: bold;
+}
+
+.contaGoogle span{
+    letter-spacing: 0.5px;
+}
+
+.dados-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 100px;
+}
+.dados input{
+    margin: 5px;
+    height: 60px;
+    border-style: none;
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 15px;
+    text-align: center;
+   
+}
+
+.lembrarsenha-container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.lembrarsenha{
+    width: 340px;
+    color: var(--colorFonteDescricao);
+    font-size: 15px;
+}
+.botao{
+
+    display: flex;
+    justify-content: center;
+    height: 40px;
+
+}
+.botao button{
+    width: 350px;
+    border: none;
+    border-radius: 13px;
+    background-color: var(--color02);
+    font-weight: bolder;
+    color: white;
+}
+
+.esqueci-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.esquecisenha { 
+    width: 220px;
+    padding-top: 8px;
+
+}
+
+.esquecisenha a{
+    color: var(--colorFonteDescricao);
+    text-decoration: none;
+}
+ .esquecisenha a:hover{
+    text-decoration: underline;
+    color: #f53fa6;
+ }
+
+ .criarconta-container{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+ }
+
+ .criarconta a{
+    color: var(--color02);
+    text-decoration: none;
+
+ }
+ .criarconta a:hover{
+    font-size: 17px;
+    transition: 1s;
+ }
+
+

@@ -1,0 +1,188 @@
+
+
+		GRADIENT CSS
+
+
+Os gradientes CSS permitem exibir transições suaves entre duas ou mais cores espe-
+
+cificadas.
+
+CSS define três tipos de gradientes:
+
+* Gradientes lineares (desce/cima/esquerda/direita/diagonalmente)
+* Gradientes radiais (definidos por seu centro)
+* Gradientes cônicos (girados em torno de um ponto central)
+
+
+
+	     GRADIENT LINEAR CSS
+
+
+Para criar um gradiente linear, você deve definir pelo menos duas paradas de cor.
+
+Interrupções de cores são as cores entre as quais você deseja renderizar transi
+
+ções suaves. Você também pode definir um ponto inicial e uma direção (ou um ângulo
+
+) junto com o efeito de gradiente.
+
+
+----------------------------------------------------------------------------------
+Sintaxe: 
+ - background-image: linear-gradient(direction, color-1, color-2, ...); - 
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+		   Exemplo
+
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
+
+
+* Direção - De cima para baixo (este é o padrão) *
+
+O exemplo acima mostra um gradiente linear que começa no topo. Começa vermelho,
+
+passando para amarelo.
+
+----------------------------------------------------------------------------------
+
+
+
+
+----------------------------------------------------------------------------------
+
+		    Exemplo
+
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
+
+
+* Direção - Esquerda para Direita *
+
+O exemplo a seguir mostra um gradiente linear que começa da esquerda. Começa ver-
+
+melho, passando para amarelo.
+
+---------------------------------------------------------------------------------
+
+		    Exemplo
+
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+
+* Direção - Diagonal *
+
+Você pode fazer um gradiente na diagonal especificando as posições iniciais hori-
+
+zontal e vertical.
+
+
+O exemplo acima mostra um gradiente linear que começa no canto superior esquerdo 
+
+(e vai para o canto inferior direito). Começa vermelho, passando para amarel.
+
+----------------------------------------------------------------------------------
+
+
+
+
+		USANDO ÂNGULOS
+
+Se quiser mais controle sobre a direção do gradiente, você pode definir um ângulo,
+
+em vez das direções predefinidas (para baixo, para cima, para a direita, para a es
+
+querda, para baixo à direita, etc.). Um valor de 0deg é equivalente a "to top". 
+
+Um valor de 90 graus é equivalente a "para a direita". Um valor de 180 graus é 
+
+equivalente a "to bottom".
+
+----------------------------------------------------------------------------------
+Sintaxe:
+background-image: linear-gradient(angle, color-stop1, color-stop2);
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+		   Exemplo
+
+#grad {
+  background-image: linear-gradient(180deg, red, yellow);
+}
+
+
+O exemplo acima mostra como usar ângulos em gradientes lineares.
+
+----------------------------------------------------------------------------------
+
+
+
+
+
+	   USANDO VÁRIAS PARADAS DE CORES
+
+
+Exemplo
+#grad {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+
+O exemplo acima mostra um gradiente linear (de cima para baixo) com várias paradas
+
+de cor.
+
+----------------------------------------------------------------------------------
+
+
+		
+
+	        USANDO TRANSPARÊNCIA
+
+
+Exemplo
+#grad {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+Os gradientes CSS também oferecem suporte à transparência, que pode ser usada para
+
+criar efeitos de esmaecimento.
+
+Para adicionar transparência, usamos a função rgba() para definir as paradas de cor.
+
+O último parâmetro na função rgba() pode ser um valor de 0 a 1, e define a trans-
+
+parência da cor: 0 indica transparência total, 1 indica cor total (sem transparên-
+
+cia).
+
+----------------------------------------------------------------------------------
+
+
+		REPETINDO GRADIENT LINEAR
+
+
+
+Exemplo
+Um gradiente linear repetitivo:
+
+#grad {
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+
+A função repeating-linear-gradient() é usada para repetir gradientes lineares.
+
+----------------------------------------------------------------------------------
+
+
+
+Conteúdo tirado do:  https://www.w3schools.com/css/css3_gradients.asp

@@ -1,0 +1,2 @@
+//          Funções Anônimas em JavaScript
+

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+#ex001{
+    color: red; /* Alterando a cor do texto*/
+}
+#ex002{
+    font-family: 'Courier New', Courier, monospace; /* Alterando a fonte do texto */
+}
+#ex003{
+    font-size: 15px; /* Alterando o tamanho do texto */
+}
+#ex004{
+    font-weight: lighter; /* Alterando o peso da fonte. valores incluidos: bold, bolder e etc*/
+}
+#ex005{
+    font-style: italic; /* Alterando o estilo da font. valores incluidos: italic, normal e oblique  */ 
+}
+#ex006{
+    text-decoration: underline; /* Adiciona um sublinhado */
+}
+#ex007{
+    line-height: 100px; /* Muda a altura de cada linha, ou entrelinha*/
+}
+#ex008{
+    text-indent: 30px; /* Muda a indentação da primeira linha de um paragrafo / bloco */
+}
+#ex009{
+    text-transform: uppercase; /* Muda a "caixa" de texto*/
+}
+#ex0010{
+    font-variant: small-caps; /* Muda a variante da fonte*/
+}
+#ex0011{
+    word-spacing: 50px; /* determina o espaçamento entre as palavras*/
+}
+#ex0012{
+    letter-spacing: 10px; /* Determina o espaçamento entre as letras*/
+}
+#ex0013{
+    text-align: right; /* Alinhamentos do texto*/
+    
+}

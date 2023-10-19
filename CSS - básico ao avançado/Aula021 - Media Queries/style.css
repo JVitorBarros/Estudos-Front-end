@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*Smartphone (600px para baixo )*/
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+}
+/*Dispositivos um pouco maiores, mas ainda pequenos(Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px){
+    body{
+        background-color: blueviolet;
+    }
+}
+/*Dispositivos médios( tablets deitados, 768px para cima)*/
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: brown;
+    }
+}
+/*Dispositivos largos (laptops/desktops, 992px para cima)*/
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: chartreuse;
+    }
+}
+/*Super largos(Telas maiores laptops, desktops e até TV's, 1200px para cima)*/
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: chocolate;
+    }
+}
