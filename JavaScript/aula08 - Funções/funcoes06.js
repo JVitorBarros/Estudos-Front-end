@@ -1,3 +1,5 @@
+//              Função dentro de funções - Funções aninhadas 
+
 "use strict"
 
 const soma = (...valores) =>{
