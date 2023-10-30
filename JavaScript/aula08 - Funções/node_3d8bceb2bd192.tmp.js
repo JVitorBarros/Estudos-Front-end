@@ -39,8 +39,8 @@ console.log(itp.next('Futebol').value)
 function* contador(){
     let i = 0 
     while(true){
-        yield i++
         if(i > 5){
+            yield i++
             break
         }
     }
