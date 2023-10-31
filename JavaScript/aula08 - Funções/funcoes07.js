@@ -3,7 +3,7 @@
 //          Funções Geradoras em JavaScript
 
 //      Primeiro exemplo: 
-/*
+
 function* cores(){
     yield 'vermelho'
     yield 'verde'
@@ -14,12 +14,12 @@ console.log(itc.next().value)
 console.log(itc.next().value)
 console.log(itc.next().value)
 console.log(itc.next().value)
-*/
+
 
 // -------------------------------------------------------------------------------------
 
 // Segundo exemplo: 
-/*
+
 function* perguntas(){
     const nome = yield 'Qual seu nome?'
     const esporte = yield 'Qual seu esporte favorito?'
@@ -30,7 +30,7 @@ const itp = perguntas();
 console.log(itp.next().value)
 console.log(itp.next('Bruno').value)
 console.log(itp.next('Futebol').value)
-*/
+
 
 //----------------------------------------------------------------------------------------
 
@@ -45,8 +45,8 @@ function* contador(){
         }
     }
 }
-let itc = contador()
-for(let v of itc){
+let itct = contador()
+for(let v of itct){
     console.log(v)
 }
 
@@ -61,7 +61,7 @@ for(let v of itc){
 */
 
 //  Aqui está um exemplo de uma função geradora simples que gera números pares:
-/*
+
 function* numerosPares() {
   let num = 0;
   while (true) {
@@ -79,10 +79,10 @@ console.log(gerador.next().value); // 4
 /*
 Neste exemplo:
 
-A função numerosParesé uma função gerada marcada com function*.
-Dentro dela, usamos um loop infinito para gerar números pares.
-A instrução yieldé usada para emitir o valor atual ( num) e pausar a execução da função.
-Quando chamamos gerador.next(), a função geradora retorna a execução a partir do ponto em que foi pausada pelo yielde gera o próximo número par.
+A função 'numerosPares' é uma função gerada marcada com function*. Dentro dela, usamos um loop infinito para gerar números pares.
+
+A instrução yieldé usada para emitir o valor atual ( num) e pausar a execução da função. Quando chamamos 'gerador.next()', a função geradora retorna a execução a partir do ponto em que foi pausada pelo yielde gera o próximo número par.
+
 Funções geradas são úteis quando você precisa lidar com sequências atmosféricas grandes de dados, como iteração sobre um grande conjunto de dados ou implementação de fluxos. Elas permitem a geração sob demanda, evitando o carregamento de todos os dados na memória de uma vez.
 
 Além disso, as funções geradoras também podem ser usadas com a estrutura for...ofdo JavaScript para simplificar a iteração em sequências geradas por funções geradoras.
