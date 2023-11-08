@@ -1,0 +1,69 @@
+<!-- Aprendendo o Método getElementById. Manipulando DOM -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula01 - Manipulando DOM</title>
+    </head>
+    <body>
+        <div id="c1">HTML</div>
+        <div id="c2">CSS</div>
+        <div id="c3">JavaScript</div>
+        <div id="c4">PHP</div>
+        <div id="c5">React</div>
+        <div id="c6">MySQL</div>
+        <script src="aula01.js"></script> 
+    </body>
+</html>
+
+<!--
+     O método getElementById é uma função que faz parte do Document Object Model (DOM) em JavaScript. Ele é usado para obter uma referência a um elemento HTML com base em seu atributo id. Cada elemento HTML pode ter um atributo id exclusivo que o identifica de maneira única em um documento da web. O getElementById permite que você acesse e manipule esse elemento pelo seu id.
+
+Aqui está a sintaxe básica do método getElementById:
+
+*********************************************************
+
+const elemento = document.getElementById("idDoElemento");
+*********************************************************
+
+Aqui estão os principais componentes dessa sintaxe:
+
+    document: Este é o objeto global que representa o documento HTML carregado na janela do navegador. O document é o ponto de partida para interagir com o DOM.
+
+    getElementById: Este é o método que você chama no objeto document. Ele procura o elemento HTML que corresponde ao id especificado.
+
+    "idDoElemento": Este é o argumento que você passa para o método getElementById. Você deve fornecer o id do elemento HTML que deseja recuperar.
+
+O método getElementById retorna uma referência ao elemento HTML encontrado ou null se nenhum elemento com o id especificado for encontrado. Você pode usar essa referência para acessar e manipular propriedades e conteúdo do elemento, como alterar seu texto, estilo, ou adicionar/remover classes.
+
+Aqui está um exemplo de uso do método getElementById:
+
+**********************************************************
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo getElementById</title>
+  </head>
+  <body>
+    <p id="meuParagrafo">Este é um parágrafo.</p>
+
+    <script>
+      const paragrafo = document.getElementById("meuParagrafo");
+      paragrafo.innerHTML = "Este é um novo texto para o parágrafo.";
+    </script>
+  </body>
+</html>
+***********************************************************
+
+Neste exemplo, o JavaScript procura o elemento com o id "meuParagrafo" e, em seguida, altera o conteúdo desse elemento para "Este é um novo texto para o parágrafo." usando a propriedade innerHTML.
+
+O método getElementById é uma maneira comum de interagir com elementos HTML em JavaScript quando você precisa se referir a elementos específicos em sua página da web.
+
+
+
+
+
+-->
