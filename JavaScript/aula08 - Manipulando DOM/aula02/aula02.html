@@ -8,6 +8,56 @@
     <title>Aula 02 - Manipulando DOM </title>
 </head>
 <body>
-    
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula01 - Manipulando DOM</title>
+    </head>
+    <body>
+        <div id="c1">HTML</div>
+        <div id="c2">CSS</div>
+        <div id="c3">JavaScript</div>
+        <div id="c4">PHP</div>
+        <div id="c5">React</div>
+        <div id="c6">MySQL</div>
+        <script src="aula02.js"></script> 
+    </body>
+</html>
 </body>
 </html>
+
+<!--
+                            Metodo getElementByTagName
+
+    Imagine que você tem uma coleção de brinquedos em sua casa, e esses brinquedos estão organizados por tipo em diferentes caixas. Por exemplo, você tem uma caixa de carros, uma caixa de bonecas e uma caixa de blocos. Se você quiser pegar todos os carros, você diria: "Pegue todos os carros da caixa de carros." O método document.getElementsByTagName funciona de forma semelhante, mas em vez de brinquedos e caixas, ele lida com elementos HTML em uma página web.
+
+    Aqui está uma explicação didática:
+
+    *Document (Documento): Imagine o documento HTML da página como sua casa de brinquedos. O document representa toda a página web, e é como a sua casa que contém todas as caixas de brinquedos.
+
+    *Tags (Etiquetas): Dentro da sua casa de brinquedos, as caixas são etiquetadas com o tipo de brinquedo que contêm, como "carros", "bonecas" e "blocos". No HTML, os elementos são etiquetados com tags, como <div>, <p>, <a>, etc.
+
+    *getElementsByTagName: Esta é como a instrução que você dá para pegar todos os brinquedos de um certo tipo em suas caixas. Em JavaScript, document.getElementsByTagName é uma função que você chama para pegar todos os elementos HTML que têm uma determinada tag.
+
+    
+    Aqui está a sintaxe do document.getElementsByTagName:
+
+    *******************************************************
+    const elementos = document.getElementsByTagName("tag");
+    *******************************************************
+
+    *document: O documento HTML da página, ou seja, a sua casa de brinquedos.
+   
+    *"tag": A etiqueta (tag) dos elementos que você deseja pegar. Por exemplo, "div", "p" ou "a".
+
+    Quando você chama document.getElementsByTagName("tag"), ele retorna uma coleção de todos os elementos que correspondem à tag especificada em todo o documento. Esses elementos são como os brinquedos que você pegou de todas as caixas etiquetadas com a mesma tag.
+
+    Aqui está um exemplo prático:
+
+    Suponha que você tenha várias imagens em sua página web e deseje pegar todas elas. Você usaria o document.getElementsByTagName("img") para obter uma coleção de todos os elementos <img> (imagens) na página. Você pode então trabalhar com essa coleção de imagens como quiser, por exemplo, para alterar seus atributos ou estilos.
+
+    Lembre-se de que o document.getElementsByTagName retorna uma coleção HTML, que se comporta de forma semelhante a um array, e você pode acessar seus elementos usando índices, assim como você pegaria os brinquedos de suas caixas.
+
+-->
