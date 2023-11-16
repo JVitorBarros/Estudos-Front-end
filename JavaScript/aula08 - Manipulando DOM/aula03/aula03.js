@@ -1,7 +1,7 @@
 const todosCursos = [...document.getElementsByClassName("curso")]
 const todosC1 = [...document.getElementsByClassName("c1")]
 const todosC2 = [...document.getElementsByClassName("c2")]
-const cursoEspecial = document.getElementsByTagName()[0]
+const cursoEspecial = document.getElementsByTagName("curso")[6]
 
 console.log(todosCursos)
 console.log(todosC1)
