@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 2px;
+    width: 197px;
+    text-align: center;
+}
+
+div:hover{
+    border: 2px solid red;
+}
+
+.c1{
+    background-color: rgb(167, 167, 167);
+    border-color: rgb(95, 95, 95);
+}
+.c2{
+    background-color: rgb(77, 76, 76);
+    border-color: rgb(167, 167, 167);
+    color: white;
+}
+.destaque{
+    background-color: #800 !important; 
+    color: #fcc !important;
+    border-color: red !important;
+}
