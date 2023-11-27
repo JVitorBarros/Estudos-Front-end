@@ -1,13 +1,9 @@
+const todosCursos = [...document.querySelectorAll('.curso')]
 
-const todosCursos = [...document.querySelector('.curso')]
-
-
-
-todosCursos.map((el)=>{
-    el.addEventListener("click", ()=>{
-        //const el = evt.target
+todosCursos.map((elemento)=>{
+    elemento.addEventListener("click", (evento)=>{
+       const el = evento.target
         el.classList.add("destaque")
+        console.log(el.id + "foi clicado")
     })
 })
-
-
