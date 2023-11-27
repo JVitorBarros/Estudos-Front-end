@@ -1,5 +1,5 @@
 
-const todosCursos = [...document.querySelectorAll('.curso')]
+const todosCursos = [...document.querySelector('.curso')]
 
 
 
