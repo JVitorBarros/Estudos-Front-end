@@ -1,9 +1,10 @@
 const todosCursos = [...document.querySelectorAll('.curso')]
 
 todosCursos.map((elemento)=>{
-    elemento.addEventListener("click", (evento)=>{
-       const el = evento.target
+    elemento.addEventListener('click', (evento)=>{
+        el = evento.target
         el.classList.add("destaque")
-        console.log(el.id + "foi clicado")
+        console.log(el.innerHTML + " foi clicado")
+        
     })
 })

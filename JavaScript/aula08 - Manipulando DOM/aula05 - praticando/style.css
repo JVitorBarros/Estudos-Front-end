@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+section{
+    border: 1px solid black;
+    width: 200px;
+
+}
+
+/* Area do botão de copiar*/
+.botaoCopiar{
+    height: 50px;
+}
