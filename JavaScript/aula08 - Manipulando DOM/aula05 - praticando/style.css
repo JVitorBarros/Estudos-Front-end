@@ -5,15 +5,51 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 section{
-    border: 1px solid black;
-    width: 200px;
+    border: 3px solid black;
+    width: 250px;
+    height: 470px;
+    margin-top: 5px;
+    background-color: rgba(204, 201, 197, 0.603);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+section div{
+    border: 2px solid rgb(102, 101, 101);
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgba(168, 165, 162, 0.705);
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
 
 }
 
 /* Area do botão de copiar*/
-.botaoCopiar{
-    height: 50px;
+#botaoCopiar{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 110);
+    color: white;
+    cursor: pointer;
+}
+
+#botaoCopiar:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+   
+}
+
+.destaque{
+    background-color: #800 !important;
+    color: #fcc !important;
+    border-color: #f00 !important;
 }
