@@ -24,18 +24,20 @@ section div{
     border: 2px solid rgb(102, 101, 101);
     border-radius: 6px;
     text-align: center;
-    background-color: rgba(168, 165
-    
-    
-    , 162, 0.705);
     width: 150px;
     padding: 5px;
     margin: 5px;
+    cursor: pointer;
 
+}
+.c1{
+    background-color: rgba(168, 165, 162, 0.705);
+    
 }
 
 /* Area do botão de copiar*/
-#botaoCopiar{
+
+#botao01, #botao02{
     height: 30px;
     width: 100px;
     margin: 10px;
@@ -44,14 +46,24 @@ section div{
     background-color: rgb(10, 10, 110);
     color: white;
     cursor: pointer;
+    
+
 }
 
-#botaoCopiar:hover{
+
+
+#botao01:hover{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
    
 }
 
-.destaque{
+#botao02:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+   
+}
+
+
+.selecionar{
     background-color: #800 !important;
     color: #fcc !important;
     border-color: #f00 !important;
