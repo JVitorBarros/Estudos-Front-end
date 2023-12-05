@@ -37,12 +37,8 @@ section div{
 
 /* Area do botão de copiar*/
 
-#botoes{
-    display: flex;
-    flex-direction: column;
-} 
 
-#botao01, #botao02{
+#botao{
     height: 30px;
     width: 100px;
     margin: 10px;
@@ -55,12 +51,7 @@ section div{
 
 }
 
-#botao01:hover{
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
-   
-}
-
-#botao02:hover{
+#botao:hover{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
    
 }
