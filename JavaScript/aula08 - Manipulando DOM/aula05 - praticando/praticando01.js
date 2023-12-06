@@ -12,7 +12,7 @@ todosCursos.map((elemento)=>{
 })
 
 botao.addEventListener("click", ()=>{
-    const cursoSelecionado1 = [...document.querySelectorAll(".selecionar")]
+    const cursoSelecionado1 = [...document.querySelectorAll(".selecionar")] 
     const cursoSelecionado2 = [...document.querySelectorAll(".curso:not(.selecionar)")]
     
     cursoSelecionado1.map((elemento)=>{
