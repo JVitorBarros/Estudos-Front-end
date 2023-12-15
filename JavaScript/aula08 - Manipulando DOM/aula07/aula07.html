@@ -1,4 +1,4 @@
-<!-- Parando a propagação do evento com stopPropagation -->
+<!-- Relação dos elementos no DOM em JavaScript -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -21,3 +21,64 @@
     <script src="aula07.js"></script>
 </body>
 </html>
+
+<!-- 
+
+    
+Vamos aprofundar um pouco mais no DOM (Document Object Model) e tentar tornar as explicações mais didáticas:
+
+1. Pai e Filho:
+
+    Definição: Em HTML, os elementos dentro de outros elementos criam uma relação pai-filho.
+
+    Exemplo Didático: Imagine uma árvore genealógica. O avô é o "pai" e seu pai é o "filho". Se você é o "filho", pode ter seus próprios "filhos".
+
+2. Irmãos:
+
+    Definição: Elementos no mesmo nível hierárquico, ou seja, com o mesmo pai, são irmãos.
+
+    Exemplo Didático: Em uma sala de aula, todos os alunos são colegas de classe (irmãos). Eles compartilham o mesmo ambiente, mas cada um é uma entidade separada.
+
+3. Pai Direto:
+
+    Definição: Um elemento dentro de outro tem um relacionamento direto com seu pai imediato.
+
+    Exemplo Didático: Considere uma boneca russa. Cada boneca está contida dentro da outra. A menor é filha da imediatamente maior.
+
+4. Descendentes:
+
+    Definição: Todos os elementos dentro de um elemento são considerados descendentes desse elemento.
+
+    Exemplo Didático: Pense em uma biblioteca. O prédio é o elemento principal (pai), e todos os livros dentro da biblioteca são seus descendentes.
+
+
+                            Exemplo Prático:
+
+        Considere o seguinte HTML:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Título</h1>
+    <p>Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+  </div>
+</body>
+</html>
+
+O <html> é o pai de tudo.
+
+O <body> é filho do <html> e pai do <div>.
+
+O <div> é pai dos <h1> e <p> (parágrafos).
+    
+Os parágrafos são irmãos, ambos filhos do <div>.
+O <h1> e os parágrafos são todos descendentes do <html>.
+Essas analogias visam simplificar conceitos mais avançados do DOM. O DOM é fundamental para interatividade em páginas web, permitindo manipulação e atualização dinâmica da estrutura e conteúdo do documento.
+
+-->
