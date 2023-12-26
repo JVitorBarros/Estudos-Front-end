@@ -7,32 +7,27 @@ botao_calcular.addEventListener("click",()=>{
     const peso = document.querySelector('#peso').value;
     const resultado = document.querySelector('#resultado')
     
-    const valorIMC = (peso / (altura * altura)).toFixed(2)
+    const valorIMC = (peso / (altura * altura)).toFixed(1)
 
-    if(nome == '' || altura == '' || peso == ''){
-       alert('Preencha os campos que estão faltando ')
-    }
-    else if(valorIMC < 18.5){
-        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e seu estado atual é Magreza`
+    if(nome != '' || altura != '' || peso != ''){
 
-    }
-    else if(valorIMC >= 18.5 || valorIMC <= 24.9){
-        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e seu estado atual é Normal`
+        let classificacao = ''
 
-    }
-    else if(valorIMC >= 25 || valorIMC <= 29.9){
-        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e seu estado atual é Sobrepeso`
-    
-    }
-    else if(valorIMC >= 30 || valorIMC <= 34.9){
-        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e seu estado atual é Obesidade grau I`
-    
-    }
-    else if(valorIMC >= 35 || valorIMC <= 39.9){
-        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e seu estado atual é Obesidade grau II`
-    
-    }
-    else{
-        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e seu estado atual é Obesidade grau III`
+        if(valorIMC < 18.5){
+            classificacao = "Abaixo do normal"
+        }else if(valorIMC <= 24.9){
+            classificacao = "Peso considerado na faixa saudável"
+        }else if(valorIMC <= 29.9 ){
+            classificacao = "Peso na faixa do sobrepeso"
+        }else if(valorIMC <= 39.9){ 
+            classificacao = "Peso na faixa de obesidade Grau II"
+        }else if(valorIMC > 40){
+            classificacao = "Peso na faixa de obesidade grau III"
+        }
+
+        resultado.textContent = `${nome} seu IMC é ${valorIMC}, estado atual: ${classificacao}`
+
+    }else{
+        alert("preencha os campos que estão faltando")
     }
 })

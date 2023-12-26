@@ -3,6 +3,9 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --fonte-geral : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 body{
     display: flex;
     justify-content: center;
@@ -44,7 +47,7 @@ button{
     border: none;
     border-radius: 5px;
     background-color:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-geral);
     color: white;
     font-weight: bolder;
     cursor: pointer;
@@ -58,12 +61,12 @@ button{
     margin-bottom: 15px;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 30px 0px 0px 0px;
+    font-family: var(--fonte-geral);
+    padding: 30px 10px 0px 10px;
 }
 
 #resultado p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-geral)
 }
 
 
