@@ -3,6 +3,11 @@ const botaoDesligar = document.querySelector('#botao-desligar');
 const imagem = document.querySelector("#img-lampada");
 
 imagem.addEventListener("mouseenter", ()=>{
+    imagem.src = "img/ligada.jpg";
+})
+
+imagem.addEventListener("mouseleave", ()=>{
+    imagem.src = "img/lampada-apagada.jpg";
 })
 
 
