@@ -18,7 +18,7 @@ main{
     padding-top: 20px;
 }
 
-#botao{
+.botao{
     width: 240px;
     height: 40px;
     display: flex;
