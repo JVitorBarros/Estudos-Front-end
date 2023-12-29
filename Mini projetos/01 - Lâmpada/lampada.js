@@ -1,41 +1,38 @@
-const botaoLigar = document.querySelector('#botao-ligar');
-const botaoDesligar = document.querySelector('#botao-desligar');
-const imagem = document.querySelector("#img-lampada");
+const botaoLigar = document.querySelector('#botao-ligar-desligar');
+const lampada = document.querySelector("#img-lampada");
 
-imagem.addEventListener("mouseenter", ()=>{
-    if(imagem.src.endsWith("img/lampada-quebrada.jpg")){
-        imagem.src = "img/lampada-quebrada.jpg"
+function lampadaQuebrada(){
+    return lampada.src.endsWith("img/lampada-quebrada.jpg");
+}
+
+lampada.addEventListener("mouseenter", ()=>{
+    if(lampadaQuebrada()){
+        lampada.src = "img/lampada-quebrada.jpg";
     }else{
-        imagem.src = "img/ligada.jpg";
+        lampada.src = "img/ligada.jpg";
     }
 })
 
-imagem.addEventListener("mouseleave", ()=>{
-    if(imagem.src.endsWith("img/lampada-quebrada.jpg")){
-        imagem.src = "img/lampada-quebrada.jpg"
+lampada.addEventListener("mouseleave", ()=>{
+    if(lampadaQuebrada()){
+        lampada.src = "img/lampada-quebrada.jpg";
     }else{
-        imagem.src = "img/lampada-apagada.jpg";
+        lampada.src = "img/lampada-apagada.jpg";
     }
 })
 
 
-imagem.addEventListener("dblclick", ()=>{
-    imagem.src = "img/lampada-quebrada.jpg";
+lampada.addEventListener("dblclick", ()=>{
+    lampada.src = "img/lampada-quebrada.jpg";
 })
 
 botaoLigar.addEventListener("click",()=>{
-    if(imagem.src.endsWith("img/lampada-quebrada.jpg")){
-        alert("Não foi possivel. Lâmpada quebrada")
+    if(lampadaQuebrada()){
+        alert("Lâmpada quebrada");
+    }else if(lampada.src.endsWith("img/lampada-apagada.jpg")){
+        lampada.src = "img/ligada.jpg";
     }else{
-        imagem.src = "img/ligada.jpg";
-    }
-    
-})
-botaoDesligar.addEventListener("click", ()=>{
-    if(imagem.src.endsWith("img/lampada-quebrada.jpg")){
-        alert("Não foi possivel. Lâmpada quebrada")
-    }else{
-        imagem.src = "img/lampada-apagada.jpg";
+        lampada.src = "img/lampada-apagada.jpg";
     }
     
 })
