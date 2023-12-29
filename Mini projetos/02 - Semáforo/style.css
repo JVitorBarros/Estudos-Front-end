@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 350px;
+}
+header{
+    padding: 15px;
+}
+#botoes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 15px;
+    
+}
+.botao{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 1px solid black ;
+}
+
+#vermelho:hover{
+    background-color: red;
+    transition: 1s;
+}
+#amarelo:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+#verde:hover{
+    background-color: green;
+    transition: 1s;
+}
+#auto:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
