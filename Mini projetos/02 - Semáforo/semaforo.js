@@ -3,6 +3,7 @@ const btn_amarelo = document.querySelector("#amarelo")
 const btn_verde = document.querySelector("#verde")
 const btn_auto = document.querySelector("#auto")
 const semaforo = document.querySelector("#semaforo")
+const imagens = ['img/vermelho.png','img/amarelo.png','img/verde.png']
 
 
 
@@ -15,6 +16,4 @@ btn_amarelo.addEventListener("click", ()=>{
 btn_verde.addEventListener("click", ()=>{
     semaforo.src = "img/verde.png";
 })
-btn_vermelho.addEventListener("click", ()=>{
-    semaforo.src = "img/vermelho.png";
-})
+btn_auto.addEventListener("click")
