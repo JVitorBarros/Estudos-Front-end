@@ -1,19 +1,34 @@
-const btn_vermelho = document.querySelector("#vermelho")
-const btn_amarelo = document.querySelector("#amarelo")
-const btn_verde = document.querySelector("#verde")
-const btn_auto = document.querySelector("#auto")
-const semaforo = document.querySelector("#semaforo")
-const imagens = ['img/vermelho.png','img/amarelo.png','img/verde.png']
+const botoes = document.getElementById('botoes');
+const semaforoAutoID = null;
+let posicao = 0;
 
 
+botoes.addEventListener("click", (evento)=>{
+    const img = document.getElementById('img');
+    
+    const semaforoAuto = () => {
+        let cores = ['vermelho','amarelo','verde'];
+        const cor = cores[posicao];
+        turnOn[cor]();
+        posicao++;
+        if(posicao > 2){
+            posicao = 0
+        }
+    }
+    const stopAutomatico = () =>{
+        clearInterval(semaforoAutoID)
 
-btn_vermelho.addEventListener("click", ()=>{
-    semaforo.src = "img/vermelho.png";
+    }
+   
+    const turnOn = {
+        'vermelho': () => img.src = 'img/vermelho.png',
+        'amarelo' : () => img.src = 'img/amarelo.png',
+        'verde'   : () => img.src = 'img/verde.png',
+        'auto'    : () => semaforoAutoID = setInterval(semaforoAuto, 1000) 
+    }
+
+    turnOn[evento.target.id]();
+    turnOn[stopAutomatico()]();
+
+    
 })
-btn_amarelo.addEventListener("click", ()=>{
-    semaforo.src = "img/amarelo.png";
-})
-btn_verde.addEventListener("click", ()=>{
-    semaforo.src = "img/verde.png";
-})
-btn_auto.addEventListener("click")
