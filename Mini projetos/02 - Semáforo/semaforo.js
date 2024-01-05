@@ -1,34 +1,55 @@
+const imagemSemaforo = document.getElementById('img');
 const botoes = document.getElementById('botoes');
-const semaforoAutoID = null;
+let semaforoAutoId = null;
 let posicao = 0;
 
-
-botoes.addEventListener("click", (evento)=>{
-    const img = document.getElementById('img');
-    
-    const semaforoAuto = () => {
-        let cores = ['vermelho','amarelo','verde'];
-        const cor = cores[posicao];
-        turnOn[cor]();
+botoes.addEventListener('click', (evento)=>{
+    const semaforoAuto = () =>{
+        const cores = ['vermelho','amarelo','verde']
+        let cor = cores[posicao];
+        clickBotao[cor]();
         posicao++;
         if(posicao > 2){
             posicao = 0
         }
     }
     const stopAutomatico = () =>{
-        clearInterval(semaforoAutoID)
-
-    }
-   
-    const turnOn = {
-        'vermelho': () => img.src = 'img/vermelho.png',
-        'amarelo' : () => img.src = 'img/amarelo.png',
-        'verde'   : () => img.src = 'img/verde.png',
-        'auto'    : () => semaforoAutoID = setInterval(semaforoAuto, 1000) 
+        clearInterval(semaforoAutoId);
     }
 
-    turnOn[evento.target.id]();
-    turnOn[stopAutomatico()]();
+    const clickBotao = {
+        'vermelho': () => imagemSemaforo.src = 'img/vermelho.png',
+        'amarelo': () => imagemSemaforo.src = 'img/amarelo.png',
+        'verde': () => imagemSemaforo.src = 'img/verde.png',
+        'auto': () => semaforoAutoId = setInterval(semaforoAuto, 1000)
+    }
 
-    
+    stopAutomatico();
+    clickBotao[evento.target.id]();
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
