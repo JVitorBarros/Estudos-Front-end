@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.caixa{
+    border: 3px solid black;
+    background-color: rgba(212, 212, 211, 0.726);
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+#nomeCurso p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#caixaEntrada{
+    width: 150px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    padding-left: 5px;
+    margin: 10px 0px 15px 0px;
+}
+
+.botao{
+    background-color: rgba(73, 73, 236, 0.849);
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    border-radius: 5px;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.418);
+}
