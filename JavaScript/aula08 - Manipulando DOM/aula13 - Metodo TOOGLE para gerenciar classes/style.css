@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.caixa{
+    border: 3px solid rgba(0, 0, 0, 0.63);
+    background-color: rgba(212, 212, 211, 0.397);
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+aside p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#nomeCurso{
+    width: 150px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    padding-left: 5px;
+    margin: 10px 0px 15px 0px;
+}
+
+.botao{
+    background-color: rgba(9, 9, 231, 0.849);
+    color: aliceblue;
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    border-radius: 5px;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 10px;
+    
+}
+
+.botao:hover{
+    color: black;
+}
+
+.c1{
+    border: 2px solid rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.445);
+    font-size: 12px;
+    font-weight: bold;
+    width: 150px;
+    margin: 3px;
+    padding: 5px 8px 5px 8px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.selecionado{
+    border: 3px solid rgba(9, 9, 231, 0.849);
+}
