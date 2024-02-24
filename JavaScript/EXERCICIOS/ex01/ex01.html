@@ -1,0 +1,59 @@
+<!-- 
+    Escreva uma função em JavaScript que realize a conversão de uma temperatura fornecida em graus. 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header id="titulo">
+            <h2>Conversor de temperatura</h2>
+        </header>
+        <section id="caixa-temperatura">
+            
+            <input required type="number" name="temperatura" id="temperatura">
+            <label for="temperatura">Temperatura</label>
+        </section>
+        <section id="caixa-conversorPrincipal">
+
+            <aside id="caixa-conversor">
+
+                <select name="temp01" id="temp01" class="caixaTemp">
+
+                    <option value="1">Fahrenheit (F)</option>
+                    <option value="2">Celsius (C)</option>
+                    <option value="3">Kelvin (K)</option>
+                
+                </select>
+
+                <img src="img/reverter.jpg" alt="" id="botao-reverter">
+
+                <select  name="temp02" id="temp02" class="caixaTemp">
+
+                    <option value="1">Celsius (C)</option>
+                    <option value="2">Fahrenheit (F)</option>
+                    <option value="3">Kelvin (K)</option>
+                
+                </select>
+            </aside>
+        </section>
+        <section id="caixa-botao">
+            <button id="botao">Calcular</button>
+        </section>
+
+        <section id="caixa-resultado">
+            <p id="rp01"></p>
+            <p>é igual a</p>
+            <p></p>
+        </section>
+
+    </main>
+    <script src="ex01.js"></script>
+</body>
+</html>

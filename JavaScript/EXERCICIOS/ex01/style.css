@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    margin-top: 50px;
+   
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    
+   
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 50px 0px;
+}
+
+#caixa-temperatura{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+#caixa-temperatura #temperatura{
+    width: 347px;
+    position: relative;
+    padding: 3px;
+    outline: 0px;
+    border-bottom: 2px solid rgb(150, 150, 150);
+    font-size: 16px;
+}
+#caixa-temperatura #temperatura:focus, #caixa-temperatura #temperatura:valid{
+    border-bottom: 2px solid rgba(42, 158, 224, 0.966);
+}
+
+#caixa-temperatura #temperatura:focus ~ label, #caixa-temperatura #temperatura:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 14px;
+    color: rgba(42, 158, 224, 0.966);
+}
+
+#caixa-temperatura label{
+    font-size: 16px;
+    position: absolute;
+    width: 347px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ;
+
+}
+
+
+#caixa-conversorPrincipal{
+    display: flex;
+    justify-content: center;
+
+}
+#caixa-conversor{
+    width: 380px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.caixaTemp{
+    cursor: pointer;
+    width: 140px;
+    outline: 0;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+}
+.caixaTemp:focus{
+    border: 1px solid rgba(42, 158, 224, 0.966);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+}
+
+#botao-reverter {
+    cursor: pointer;
+    
+}
+
+#caixa-botao{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+#botao{
+    width: 130px;
+    height: 40px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+#botao:focus{
+    border: 1px solid rgba(42, 158, 224, 0.966);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+}
+
+
+#caixa-resultado{
+    background-color: rgba(116, 116, 113, 0.171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+   
+    
+}
