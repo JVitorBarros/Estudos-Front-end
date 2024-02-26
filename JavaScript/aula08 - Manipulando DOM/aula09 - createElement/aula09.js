@@ -1,4 +1,4 @@
-// Usando o createElemenbt
+// Usando o createElement
 
 const cursos = ['Html', 'CSS', 'JavaScript', 'PHP','React','MySQL', 'ReactNative'];
 const caixa01 = document.getElementById('caixa01');
