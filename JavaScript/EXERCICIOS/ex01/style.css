@@ -13,7 +13,7 @@ body{
     
 }
 main{
-    margin-top: 50px;
+    margin: 50px;
    
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.26);
     border-radius: 10px;
@@ -99,13 +99,14 @@ main{
     justify-content: center;
     padding: 25px;
 }
-#botao{
+#botao-calcular{
     width: 130px;
     height: 40px;
     font-weight: bolder;
     border-radius: 5px;
+    cursor: pointer;
 }
-#botao:focus{
+#botao-calcular:focus{
     border: 1px solid rgba(42, 158, 224, 0.966);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
 }
@@ -114,9 +115,18 @@ main{
 #caixa-resultado{
     background-color: rgba(116, 116, 113, 0.171);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 60px;
-   
-    
+      
 }
+
+#caixa-resultado .result{
+    
+    font-size: 15px;
+    font-weight: bolder;
+    width: 100px;
+    text-align: center;
+    color:  rgba(42, 158, 224, 0.966)
+}
+
