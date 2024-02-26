@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'font-title';
+    src: local('YoungSerif-Regular'), url(fonts/young-serif/YoungSerif-Regular.ttf) format('woff2');
+
+    
+}
+
+h1,h2{
+    font-family: 'font-title';
+}
+
+body{
+    border: 1px solid black;
+}
