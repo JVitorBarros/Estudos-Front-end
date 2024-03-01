@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'font-title';
+    font-family: 'font-title', 'font-text';
     src: local('YoungSerif-Regular'), url(fonts/young-serif/YoungSerif-Regular.ttf) format('woff2');
 }
 @font-face {
-    font-family: 'font-text';
+    font-family: ;
     src: local('Outfit-VariableFont_wght'), url(fonts/outfit/Outfit-VariableFont_wght.ttf) format('woff2');   
 }
 *{
@@ -55,20 +55,44 @@ main{
     padding: 15px 0;
     font-size: 28px;
 }
-#recipe-title-box p{
+p,ul,ol{
     font-size: 10.5px;
     font-weight: bold;
-    
 }
+
 #preparation-time-box{
-   border: 1px solid black;
    margin: 20px;
 }
 #preparation-time-box h3{
     color: rgba(95, 6, 112, 0.778);
     font-size: 16px;
+
 }
-#preparation-time-box #temp-information {
-    border: 1px solid black;
-    width: 50%;
+#preparation-time-box li{
+    color: rgba(95, 6, 112, 0.778);
 }
+#preparation-time-box strong{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+#preparation-time-box ul {
+    padding-left: 20px; 
+    
+}
+#preparation-time-box li{
+    margin: 10px;
+}
+.content h2,li{
+    color: rgb(151, 74, 20);
+}
+
+#ingredients-box ul{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.088);
+    padding-left: 20px;
+    margin: 5px 0px 20px 0px;
+}
+#ingredients-box li{
+    margin: 15px 0;
+    
+}
+
