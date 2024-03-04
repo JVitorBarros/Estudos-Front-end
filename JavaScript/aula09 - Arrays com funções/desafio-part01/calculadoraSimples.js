@@ -11,19 +11,21 @@ btnCalculate.addEventListener('click', (event)=>{
 
     const operations = [
         multiplication =(val)=>{
-            let res = 1;
-            for (let v of val){
-                res *= v
-            }
+            const res = val[0] * val[1]
             return res
         },
-        division =(val)=>{
-            let res = 1;
-            for (let v of val){
-                res /= v
-            }
+        division=(val) => {
+            const res = val[0] / val[1]
             return res
+        },
+        subtracao = (val) =>{
+            
+        },
+        soma =(val)=>{
+            
+            
         }
+       
     ]
 
     alert(operations[1](value))
