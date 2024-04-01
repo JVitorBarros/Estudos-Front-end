@@ -1,0 +1,9 @@
+@media only screen and (max-width: 606px) {
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
